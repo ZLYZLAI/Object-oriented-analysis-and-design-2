@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\Desktop\\lab1ooap\\1_builder\\PCConfigurator2\\PCConfigurator2.csproj",
+      "projectUniqueName": "C:\\Users\\User\\Desktop\\ooap\\Object-oriented-analysis-and-design-2\\lab01\\1_builder\\PCConfigurator2\\PCConfigurator2.csproj",
       "projectName": "PCConfigurator2",
-      "projectPath": "C:\\Users\\User\\Desktop\\lab1ooap\\1_builder\\PCConfigurator2\\PCConfigurator2.csproj",
+      "projectPath": "C:\\Users\\User\\Desktop\\ooap\\Object-oriented-analysis-and-design-2\\lab01\\1_builder\\PCConfigurator2\\PCConfigurator2.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\Desktop\\lab1ooap\\1_builder\\PCConfigurator2\\obj\\",
+      "outputPath": "C:\\Users\\User\\Desktop\\ooap\\Object-oriented-analysis-and-design-2\\lab01\\1_builder\\PCConfigurator2\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config"
