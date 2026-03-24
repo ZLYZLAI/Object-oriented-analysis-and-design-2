@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ResolveNugetPackages>false</ResolveNugetPackages>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{C8508849-D4C3-34FB-8F23-5CB94A0FF245}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>ZERO_CHECK</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\User\Desktop\mapcreator_bez\build\CMakeFiles\1e4d5f8bcd30a0ee8a5c8ae4cd0b039d\generate.stamp.rule">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</BuildInParallel>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\My Files\Programs directory\visualstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/User/Desktop/mapcreator_bez -BC:/Users/User/Desktop/mapcreator_bez/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/User/Desktop/mapcreator_bez/build/MapCreator_NoPattern.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\My Files\Programs directory\visualstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\CMakeCInformation.cmake;C:\My Files\Programs directory\visualstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\CMakeCXXInformation.cmake;C:\My Files\Programs directory\visualstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\CMakeCommonLanguageInclude.cmake;C:\My Files\Programs directory\visualstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\CMakeGenericSystem.cmake;C:\My Files\Programs directory\visualstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\CMakeInitializeConfigs.cmake;C:\My Files\Programs directory\visualstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\CMakeLanguageInformation.cmake;C:\My Files\Programs directory\visualstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\CMakePackageConfigHelpers.cmake;C:\My Files\Programs directory\visualstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\CMakeRCInformation.cmake;C:\My Files\Programs directory\visualstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\CMakeSystemSpecificInformation.cmake;C:\My Files\Programs directory\visualstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\CMakeSystemSpecificInitialize.cmake;C:\My Files\Programs directory\visualstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\My Files\Programs directory\visualstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\Compiler\MSVC-C.cmake;C:\My Files\Programs directory\visualstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\Compiler\MSVC-CXX.cmake;C:\My Files\Programs directory\visualstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\Compiler\MSVC.cmake;C:\My Files\Programs directory\visualstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\ExternalProject.cmake;C:\My Files\Programs directory\visualstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\ExternalProject\shared_internal_commands.cmake;C:\My Files\Programs directory\visualstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\FetchContent.cmake;C:\My Files\Programs directory\visualstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\FetchContent\CMakeLists.cmake.in;C:\My Files\Programs directory\visualstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\GNUInstallDirs.cmake;C:\My Files\Programs directory\visualstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\Platform\Windows-Initialize.cmake;C:\My Files\Programs directory\visualstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC-C.cmake;C:\My Files\Programs directory\visualstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC-CXX.cmake;C:\My Files\Programs directory\visualstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC.cmake;C:\My Files\Programs directory\visualstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\Platform\Windows.cmake;C:\My Files\Programs directory\visualstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\Platform\WindowsPaths.cmake;C:\My Files\Programs directory\visualstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\User\Desktop\mapcreator_bez\CMakeLists.txt;C:\Users\User\Desktop\mapcreator_bez\build\CMakeFiles\3.28.3-msvc11\CMakeCCompiler.cmake;C:\Users\User\Desktop\mapcreator_bez\build\CMakeFiles\3.28.3-msvc11\CMakeCXXCompiler.cmake;C:\Users\User\Desktop\mapcreator_bez\build\CMakeFiles\3.28.3-msvc11\CMakeRCCompiler.cmake;C:\Users\User\Desktop\mapcreator_bez\build\CMakeFiles\3.28.3-msvc11\CMakeSystem.cmake;C:\Users\User\Desktop\mapcreator_bez\build\_deps\json-src\CMakeLists.txt;C:\Users\User\Desktop\mapcreator_bez\build\_deps\json-src\cmake\config.cmake.in;C:\Users\User\Desktop\mapcreator_bez\build\_deps\json-src\cmake\nlohmann_jsonConfigVersion.cmake.in;C:\Users\User\Desktop\mapcreator_bez\build\_deps\json-src\cmake\pkg-config.pc.in;C:\Users\User\Desktop\mapcreator_bez\external\SFML-2.6.1\lib\cmake\SFML\SFMLConfig.cmake;C:\Users\User\Desktop\mapcreator_bez\external\SFML-2.6.1\lib\cmake\SFML\SFMLConfigDependencies.cmake;C:\Users\User\Desktop\mapcreator_bez\external\SFML-2.6.1\lib\cmake\SFML\SFMLConfigVersion.cmake;C:\Users\User\Desktop\mapcreator_bez\external\SFML-2.6.1\lib\cmake\SFML\SFMLSharedTargets-debug.cmake;C:\Users\User\Desktop\mapcreator_bez\external\SFML-2.6.1\lib\cmake\SFML\SFMLSharedTargets-release.cmake;C:\Users\User\Desktop\mapcreator_bez\external\SFML-2.6.1\lib\cmake\SFML\SFMLSharedTargets.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\User\Desktop\mapcreator_bez\build\CMakeFiles\generate.stamp;C:\Users\User\Desktop\mapcreator_bez\build\_deps\json-build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</BuildInParallel>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\My Files\Programs directory\visualstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/User/Desktop/mapcreator_bez -BC:/Users/User/Desktop/mapcreator_bez/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/User/Desktop/mapcreator_bez/build/MapCreator_NoPattern.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\My Files\Programs directory\visualstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\CMakeCInformation.cmake;C:\My Files\Programs directory\visualstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\CMakeCXXInformation.cmake;C:\My Files\Programs directory\visualstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\CMakeCommonLanguageInclude.cmake;C:\My Files\Programs directory\visualstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\CMakeGenericSystem.cmake;C:\My Files\Programs directory\visualstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\CMakeInitializeConfigs.cmake;C:\My Files\Programs directory\visualstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\CMakeLanguageInformation.cmake;C:\My Files\Programs directory\visualstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\CMakePackageConfigHelpers.cmake;C:\My Files\Programs directory\visualstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\CMakeRCInformation.cmake;C:\My Files\Programs directory\visualstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\CMakeSystemSpecificInformation.cmake;C:\My Files\Programs directory\visualstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\CMakeSystemSpecificInitialize.cmake;C:\My Files\Programs directory\visualstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\My Files\Programs directory\visualstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\Compiler\MSVC-C.cmake;C:\My Files\Programs directory\visualstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\Compiler\MSVC-CXX.cmake;C:\My Files\Programs directory\visualstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\Compiler\MSVC.cmake;C:\My Files\Programs directory\visualstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\ExternalProject.cmake;C:\My Files\Programs directory\visualstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\ExternalProject\shared_internal_commands.cmake;C:\My Files\Programs directory\visualstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\FetchContent.cmake;C:\My Files\Programs directory\visualstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\FetchContent\CMakeLists.cmake.in;C:\My Files\Programs directory\visualstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\GNUInstallDirs.cmake;C:\My Files\Programs directory\visualstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\Platform\Windows-Initialize.cmake;C:\My Files\Programs directory\visualstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC-C.cmake;C:\My Files\Programs directory\visualstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC-CXX.cmake;C:\My Files\Programs directory\visualstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC.cmake;C:\My Files\Programs directory\visualstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\Platform\Windows.cmake;C:\My Files\Programs directory\visualstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\Platform\WindowsPaths.cmake;C:\My Files\Programs directory\visualstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\User\Desktop\mapcreator_bez\CMakeLists.txt;C:\Users\User\Desktop\mapcreator_bez\build\CMakeFiles\3.28.3-msvc11\CMakeCCompiler.cmake;C:\Users\User\Desktop\mapcreator_bez\build\CMakeFiles\3.28.3-msvc11\CMakeCXXCompiler.cmake;C:\Users\User\Desktop\mapcreator_bez\build\CMakeFiles\3.28.3-msvc11\CMakeRCCompiler.cmake;C:\Users\User\Desktop\mapcreator_bez\build\CMakeFiles\3.28.3-msvc11\CMakeSystem.cmake;C:\Users\User\Desktop\mapcreator_bez\build\_deps\json-src\CMakeLists.txt;C:\Users\User\Desktop\mapcreator_bez\build\_deps\json-src\cmake\config.cmake.in;C:\Users\User\Desktop\mapcreator_bez\build\_deps\json-src\cmake\nlohmann_jsonConfigVersion.cmake.in;C:\Users\User\Desktop\mapcreator_bez\build\_deps\json-src\cmake\pkg-config.pc.in;C:\Users\User\Desktop\mapcreator_bez\external\SFML-2.6.1\lib\cmake\SFML\SFMLConfig.cmake;C:\Users\User\Desktop\mapcreator_bez\external\SFML-2.6.1\lib\cmake\SFML\SFMLConfigDependencies.cmake;C:\Users\User\Desktop\mapcreator_bez\external\SFML-2.6.1\lib\cmake\SFML\SFMLConfigVersion.cmake;C:\Users\User\Desktop\mapcreator_bez\external\SFML-2.6.1\lib\cmake\SFML\SFMLSharedTargets-debug.cmake;C:\Users\User\Desktop\mapcreator_bez\external\SFML-2.6.1\lib\cmake\SFML\SFMLSharedTargets-release.cmake;C:\Users\User\Desktop\mapcreator_bez\external\SFML-2.6.1\lib\cmake\SFML\SFMLSharedTargets.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\User\Desktop\mapcreator_bez\build\CMakeFiles\generate.stamp;C:\Users\User\Desktop\mapcreator_bez\build\_deps\json-build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</BuildInParallel>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\My Files\Programs directory\visualstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/User/Desktop/mapcreator_bez -BC:/Users/User/Desktop/mapcreator_bez/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/User/Desktop/mapcreator_bez/build/MapCreator_NoPattern.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\My Files\Programs directory\visualstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\CMakeCInformation.cmake;C:\My Files\Programs directory\visualstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\CMakeCXXInformation.cmake;C:\My Files\Programs directory\visualstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\CMakeCommonLanguageInclude.cmake;C:\My Files\Programs directory\visualstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\CMakeGenericSystem.cmake;C:\My Files\Programs directory\visualstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\CMakeInitializeConfigs.cmake;C:\My Files\Programs directory\visualstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\CMakeLanguageInformation.cmake;C:\My Files\Programs directory\visualstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\CMakePackageConfigHelpers.cmake;C:\My Files\Programs directory\visualstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\CMakeRCInformation.cmake;C:\My Files\Programs directory\visualstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\CMakeSystemSpecificInformation.cmake;C:\My Files\Programs directory\visualstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\CMakeSystemSpecificInitialize.cmake;C:\My Files\Programs directory\visualstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\My Files\Programs directory\visualstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\Compiler\MSVC-C.cmake;C:\My Files\Programs directory\visualstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\Compiler\MSVC-CXX.cmake;C:\My Files\Programs directory\visualstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\Compiler\MSVC.cmake;C:\My Files\Programs directory\visualstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\ExternalProject.cmake;C:\My Files\Programs directory\visualstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\ExternalProject\shared_internal_commands.cmake;C:\My Files\Programs directory\visualstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\FetchContent.cmake;C:\My Files\Programs directory\visualstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\FetchContent\CMakeLists.cmake.in;C:\My Files\Programs directory\visualstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\GNUInstallDirs.cmake;C:\My Files\Programs directory\visualstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\Platform\Windows-Initialize.cmake;C:\My Files\Programs directory\visualstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC-C.cmake;C:\My Files\Programs directory\visualstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC-CXX.cmake;C:\My Files\Programs directory\visualstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC.cmake;C:\My Files\Programs directory\visualstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\Platform\Windows.cmake;C:\My Files\Programs directory\visualstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\Platform\WindowsPaths.cmake;C:\My Files\Programs directory\visualstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\User\Desktop\mapcreator_bez\CMakeLists.txt;C:\Users\User\Desktop\mapcreator_bez\build\CMakeFiles\3.28.3-msvc11\CMakeCCompiler.cmake;C:\Users\User\Desktop\mapcreator_bez\build\CMakeFiles\3.28.3-msvc11\CMakeCXXCompiler.cmake;C:\Users\User\Desktop\mapcreator_bez\build\CMakeFiles\3.28.3-msvc11\CMakeRCCompiler.cmake;C:\Users\User\Desktop\mapcreator_bez\build\CMakeFiles\3.28.3-msvc11\CMakeSystem.cmake;C:\Users\User\Desktop\mapcreator_bez\build\_deps\json-src\CMakeLists.txt;C:\Users\User\Desktop\mapcreator_bez\build\_deps\json-src\cmake\config.cmake.in;C:\Users\User\Desktop\mapcreator_bez\build\_deps\json-src\cmake\nlohmann_jsonConfigVersion.cmake.in;C:\Users\User\Desktop\mapcreator_bez\build\_deps\json-src\cmake\pkg-config.pc.in;C:\Users\User\Desktop\mapcreator_bez\external\SFML-2.6.1\lib\cmake\SFML\SFMLConfig.cmake;C:\Users\User\Desktop\mapcreator_bez\external\SFML-2.6.1\lib\cmake\SFML\SFMLConfigDependencies.cmake;C:\Users\User\Desktop\mapcreator_bez\external\SFML-2.6.1\lib\cmake\SFML\SFMLConfigVersion.cmake;C:\Users\User\Desktop\mapcreator_bez\external\SFML-2.6.1\lib\cmake\SFML\SFMLSharedTargets-debug.cmake;C:\Users\User\Desktop\mapcreator_bez\external\SFML-2.6.1\lib\cmake\SFML\SFMLSharedTargets-release.cmake;C:\Users\User\Desktop\mapcreator_bez\external\SFML-2.6.1\lib\cmake\SFML\SFMLSharedTargets.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\User\Desktop\mapcreator_bez\build\CMakeFiles\generate.stamp;C:\Users\User\Desktop\mapcreator_bez\build\_deps\json-build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</BuildInParallel>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\My Files\Programs directory\visualstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/User/Desktop/mapcreator_bez -BC:/Users/User/Desktop/mapcreator_bez/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/User/Desktop/mapcreator_bez/build/MapCreator_NoPattern.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\My Files\Programs directory\visualstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\CMakeCInformation.cmake;C:\My Files\Programs directory\visualstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\CMakeCXXInformation.cmake;C:\My Files\Programs directory\visualstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\CMakeCommonLanguageInclude.cmake;C:\My Files\Programs directory\visualstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\CMakeGenericSystem.cmake;C:\My Files\Programs directory\visualstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\CMakeInitializeConfigs.cmake;C:\My Files\Programs directory\visualstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\CMakeLanguageInformation.cmake;C:\My Files\Programs directory\visualstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\CMakePackageConfigHelpers.cmake;C:\My Files\Programs directory\visualstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\CMakeRCInformation.cmake;C:\My Files\Programs directory\visualstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\CMakeSystemSpecificInformation.cmake;C:\My Files\Programs directory\visualstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\CMakeSystemSpecificInitialize.cmake;C:\My Files\Programs directory\visualstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\My Files\Programs directory\visualstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\Compiler\MSVC-C.cmake;C:\My Files\Programs directory\visualstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\Compiler\MSVC-CXX.cmake;C:\My Files\Programs directory\visualstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\Compiler\MSVC.cmake;C:\My Files\Programs directory\visualstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\ExternalProject.cmake;C:\My Files\Programs directory\visualstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\ExternalProject\shared_internal_commands.cmake;C:\My Files\Programs directory\visualstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\FetchContent.cmake;C:\My Files\Programs directory\visualstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\FetchContent\CMakeLists.cmake.in;C:\My Files\Programs directory\visualstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\GNUInstallDirs.cmake;C:\My Files\Programs directory\visualstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\Platform\Windows-Initialize.cmake;C:\My Files\Programs directory\visualstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC-C.cmake;C:\My Files\Programs directory\visualstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC-CXX.cmake;C:\My Files\Programs directory\visualstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC.cmake;C:\My Files\Programs directory\visualstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\Platform\Windows.cmake;C:\My Files\Programs directory\visualstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\Platform\WindowsPaths.cmake;C:\My Files\Programs directory\visualstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.28\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\User\Desktop\mapcreator_bez\CMakeLists.txt;C:\Users\User\Desktop\mapcreator_bez\build\CMakeFiles\3.28.3-msvc11\CMakeCCompiler.cmake;C:\Users\User\Desktop\mapcreator_bez\build\CMakeFiles\3.28.3-msvc11\CMakeCXXCompiler.cmake;C:\Users\User\Desktop\mapcreator_bez\build\CMakeFiles\3.28.3-msvc11\CMakeRCCompiler.cmake;C:\Users\User\Desktop\mapcreator_bez\build\CMakeFiles\3.28.3-msvc11\CMakeSystem.cmake;C:\Users\User\Desktop\mapcreator_bez\build\_deps\json-src\CMakeLists.txt;C:\Users\User\Desktop\mapcreator_bez\build\_deps\json-src\cmake\config.cmake.in;C:\Users\User\Desktop\mapcreator_bez\build\_deps\json-src\cmake\nlohmann_jsonConfigVersion.cmake.in;C:\Users\User\Desktop\mapcreator_bez\build\_deps\json-src\cmake\pkg-config.pc.in;C:\Users\User\Desktop\mapcreator_bez\external\SFML-2.6.1\lib\cmake\SFML\SFMLConfig.cmake;C:\Users\User\Desktop\mapcreator_bez\external\SFML-2.6.1\lib\cmake\SFML\SFMLConfigDependencies.cmake;C:\Users\User\Desktop\mapcreator_bez\external\SFML-2.6.1\lib\cmake\SFML\SFMLConfigVersion.cmake;C:\Users\User\Desktop\mapcreator_bez\external\SFML-2.6.1\lib\cmake\SFML\SFMLSharedTargets-debug.cmake;C:\Users\User\Desktop\mapcreator_bez\external\SFML-2.6.1\lib\cmake\SFML\SFMLSharedTargets-release.cmake;C:\Users\User\Desktop\mapcreator_bez\external\SFML-2.6.1\lib\cmake\SFML\SFMLSharedTargets.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\User\Desktop\mapcreator_bez\build\CMakeFiles\generate.stamp;C:\Users\User\Desktop\mapcreator_bez\build\_deps\json-build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

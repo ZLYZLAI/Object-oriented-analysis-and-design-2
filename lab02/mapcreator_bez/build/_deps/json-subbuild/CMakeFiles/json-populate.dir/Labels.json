@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/User/Desktop/mapcreator_bez/build/_deps/json-subbuild/CMakeFiles/json-populate"
+		},
+		{
+			"file" : "C:/Users/User/Desktop/mapcreator_bez/build/_deps/json-subbuild/CMakeFiles/bf2fcdb7e4826df14f948798362507a4/json-populate.rule"
+		},
+		{
+			"file" : "C:/Users/User/Desktop/mapcreator_bez/build/_deps/json-subbuild/CMakeFiles/3c98cb952e68787a76355a8ee00cfcdd/json-populate-complete.rule"
+		},
+		{
+			"file" : "C:/Users/User/Desktop/mapcreator_bez/build/_deps/json-subbuild/CMakeFiles/9ab8077bdfa08344e1dfba02ac0736c6/json-populate-build.rule"
+		},
+		{
+			"file" : "C:/Users/User/Desktop/mapcreator_bez/build/_deps/json-subbuild/CMakeFiles/9ab8077bdfa08344e1dfba02ac0736c6/json-populate-configure.rule"
+		},
+		{
+			"file" : "C:/Users/User/Desktop/mapcreator_bez/build/_deps/json-subbuild/CMakeFiles/9ab8077bdfa08344e1dfba02ac0736c6/json-populate-download.rule"
+		},
+		{
+			"file" : "C:/Users/User/Desktop/mapcreator_bez/build/_deps/json-subbuild/CMakeFiles/9ab8077bdfa08344e1dfba02ac0736c6/json-populate-install.rule"
+		},
+		{
+			"file" : "C:/Users/User/Desktop/mapcreator_bez/build/_deps/json-subbuild/CMakeFiles/9ab8077bdfa08344e1dfba02ac0736c6/json-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/User/Desktop/mapcreator_bez/build/_deps/json-subbuild/CMakeFiles/9ab8077bdfa08344e1dfba02ac0736c6/json-populate-patch.rule"
+		},
+		{
+			"file" : "C:/Users/User/Desktop/mapcreator_bez/build/_deps/json-subbuild/CMakeFiles/9ab8077bdfa08344e1dfba02ac0736c6/json-populate-test.rule"
+		},
+		{
+			"file" : "C:/Users/User/Desktop/mapcreator_bez/build/_deps/json-subbuild/CMakeFiles/9ab8077bdfa08344e1dfba02ac0736c6/json-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"json-populate"
+		],
+		"name" : "json-populate"
+	}
+}

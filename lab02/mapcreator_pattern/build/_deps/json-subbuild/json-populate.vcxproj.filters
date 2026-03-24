@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\User\Desktop\mapcreator_pattern\build\_deps\json-subbuild\CMakeFiles\ed08edced4e87bdab64cccdb549c9bcc\json-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\User\Desktop\mapcreator_pattern\build\_deps\json-subbuild\CMakeFiles\ed08edced4e87bdab64cccdb549c9bcc\json-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\User\Desktop\mapcreator_pattern\build\_deps\json-subbuild\CMakeFiles\ed08edced4e87bdab64cccdb549c9bcc\json-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\User\Desktop\mapcreator_pattern\build\_deps\json-subbuild\CMakeFiles\ed08edced4e87bdab64cccdb549c9bcc\json-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\User\Desktop\mapcreator_pattern\build\_deps\json-subbuild\CMakeFiles\ed08edced4e87bdab64cccdb549c9bcc\json-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\User\Desktop\mapcreator_pattern\build\_deps\json-subbuild\CMakeFiles\ed08edced4e87bdab64cccdb549c9bcc\json-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\User\Desktop\mapcreator_pattern\build\_deps\json-subbuild\CMakeFiles\ed08edced4e87bdab64cccdb549c9bcc\json-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\User\Desktop\mapcreator_pattern\build\_deps\json-subbuild\CMakeFiles\ed08edced4e87bdab64cccdb549c9bcc\json-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\User\Desktop\mapcreator_pattern\build\_deps\json-subbuild\CMakeFiles\b7fa3cce30ebe6ffaeeed6dc2aa6302e\json-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\User\Desktop\mapcreator_pattern\build\_deps\json-subbuild\CMakeFiles\75c2d58df4677fdd6823f2ea52a08446\json-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\User\Desktop\mapcreator_pattern\build\_deps\json-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\User\Desktop\mapcreator_pattern\build\_deps\json-subbuild\CMakeFiles\json-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{F2F36ECE-A2A1-3673-B022-D923921989A5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

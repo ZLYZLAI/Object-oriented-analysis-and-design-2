@@ -1,0 +1,10 @@
+^C:\USERS\USER\DESKTOP\MAPCREATOR_BEZ\BUILD\_DEPS\JSON-SUBBUILD\CMAKELISTS.TXT
+setlocal
+"C:\My Files\Programs directory\visualstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/User/Desktop/mapcreator_bez/build/_deps/json-subbuild -BC:/Users/User/Desktop/mapcreator_bez/build/_deps/json-subbuild --check-stamp-file C:/Users/User/Desktop/mapcreator_bez/build/_deps/json-subbuild/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

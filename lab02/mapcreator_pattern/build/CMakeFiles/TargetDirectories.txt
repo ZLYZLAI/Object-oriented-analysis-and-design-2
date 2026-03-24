@@ -1,0 +1,4 @@
+C:/Users/User/Desktop/mapcreator_pattern/build/CMakeFiles/MapBuilder3000.dir
+C:/Users/User/Desktop/mapcreator_pattern/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/User/Desktop/mapcreator_pattern/build/CMakeFiles/ZERO_CHECK.dir
+C:/Users/User/Desktop/mapcreator_pattern/build/_deps/json-build/CMakeFiles/ALL_BUILD.dir

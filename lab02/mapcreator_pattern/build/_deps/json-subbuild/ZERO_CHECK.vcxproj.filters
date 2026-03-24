@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\User\Desktop\mapcreator_pattern\build\_deps\json-subbuild\CMakeFiles\75c2d58df4677fdd6823f2ea52a08446\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{F2F36ECE-A2A1-3673-B022-D923921989A5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

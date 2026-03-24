@@ -1,0 +1,4 @@
+C:/Users/User/Desktop/mapcreator_bez/build/CMakeFiles/MapCreator_NoPattern.dir
+C:/Users/User/Desktop/mapcreator_bez/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/User/Desktop/mapcreator_bez/build/CMakeFiles/ZERO_CHECK.dir
+C:/Users/User/Desktop/mapcreator_bez/build/_deps/json-build/CMakeFiles/ALL_BUILD.dir

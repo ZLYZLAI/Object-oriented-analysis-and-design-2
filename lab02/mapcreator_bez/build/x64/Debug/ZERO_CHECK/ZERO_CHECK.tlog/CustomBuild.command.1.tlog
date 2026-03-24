@@ -1,0 +1,10 @@
+^C:\USERS\USER\DESKTOP\MAPCREATOR_BEZ\BUILD\CMAKEFILES\1E4D5F8BCD30A0EE8A5C8AE4CD0B039D\GENERATE.STAMP.RULE
+setlocal
+"C:\My Files\Programs directory\visualstudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/User/Desktop/mapcreator_bez -BC:/Users/User/Desktop/mapcreator_bez/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/User/Desktop/mapcreator_bez/build/MapCreator_NoPattern.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

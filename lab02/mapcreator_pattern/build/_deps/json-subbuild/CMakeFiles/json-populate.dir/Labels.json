@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/User/Desktop/mapcreator_pattern/build/_deps/json-subbuild/CMakeFiles/json-populate"
+		},
+		{
+			"file" : "C:/Users/User/Desktop/mapcreator_pattern/build/_deps/json-subbuild/CMakeFiles/75c2d58df4677fdd6823f2ea52a08446/json-populate.rule"
+		},
+		{
+			"file" : "C:/Users/User/Desktop/mapcreator_pattern/build/_deps/json-subbuild/CMakeFiles/b7fa3cce30ebe6ffaeeed6dc2aa6302e/json-populate-complete.rule"
+		},
+		{
+			"file" : "C:/Users/User/Desktop/mapcreator_pattern/build/_deps/json-subbuild/CMakeFiles/ed08edced4e87bdab64cccdb549c9bcc/json-populate-build.rule"
+		},
+		{
+			"file" : "C:/Users/User/Desktop/mapcreator_pattern/build/_deps/json-subbuild/CMakeFiles/ed08edced4e87bdab64cccdb549c9bcc/json-populate-configure.rule"
+		},
+		{
+			"file" : "C:/Users/User/Desktop/mapcreator_pattern/build/_deps/json-subbuild/CMakeFiles/ed08edced4e87bdab64cccdb549c9bcc/json-populate-download.rule"
+		},
+		{
+			"file" : "C:/Users/User/Desktop/mapcreator_pattern/build/_deps/json-subbuild/CMakeFiles/ed08edced4e87bdab64cccdb549c9bcc/json-populate-install.rule"
+		},
+		{
+			"file" : "C:/Users/User/Desktop/mapcreator_pattern/build/_deps/json-subbuild/CMakeFiles/ed08edced4e87bdab64cccdb549c9bcc/json-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/User/Desktop/mapcreator_pattern/build/_deps/json-subbuild/CMakeFiles/ed08edced4e87bdab64cccdb549c9bcc/json-populate-patch.rule"
+		},
+		{
+			"file" : "C:/Users/User/Desktop/mapcreator_pattern/build/_deps/json-subbuild/CMakeFiles/ed08edced4e87bdab64cccdb549c9bcc/json-populate-test.rule"
+		},
+		{
+			"file" : "C:/Users/User/Desktop/mapcreator_pattern/build/_deps/json-subbuild/CMakeFiles/ed08edced4e87bdab64cccdb549c9bcc/json-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"json-populate"
+		],
+		"name" : "json-populate"
+	}
+}

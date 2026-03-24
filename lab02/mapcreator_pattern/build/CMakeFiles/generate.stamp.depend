@@ -1,0 +1,34 @@
+# CMake generation dependency list for this directory.
+C:/My Files/Programs directory/visualstudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeCInformation.cmake
+C:/My Files/Programs directory/visualstudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeCXXInformation.cmake
+C:/My Files/Programs directory/visualstudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake
+C:/My Files/Programs directory/visualstudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeGenericSystem.cmake
+C:/My Files/Programs directory/visualstudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake
+C:/My Files/Programs directory/visualstudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake
+C:/My Files/Programs directory/visualstudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeRCInformation.cmake
+C:/My Files/Programs directory/visualstudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake
+C:/My Files/Programs directory/visualstudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake
+C:/My Files/Programs directory/visualstudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake
+C:/My Files/Programs directory/visualstudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/Compiler/MSVC-C.cmake
+C:/My Files/Programs directory/visualstudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/Compiler/MSVC-CXX.cmake
+C:/My Files/Programs directory/visualstudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/Compiler/MSVC.cmake
+C:/My Files/Programs directory/visualstudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/ExternalProject/shared_internal_commands.cmake
+C:/My Files/Programs directory/visualstudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/FetchContent.cmake
+C:/My Files/Programs directory/visualstudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/FetchContent/CMakeLists.cmake.in
+C:/My Files/Programs directory/visualstudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/Platform/Windows-Initialize.cmake
+C:/My Files/Programs directory/visualstudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/Platform/Windows-MSVC-C.cmake
+C:/My Files/Programs directory/visualstudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/Platform/Windows-MSVC-CXX.cmake
+C:/My Files/Programs directory/visualstudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/Platform/Windows-MSVC.cmake
+C:/My Files/Programs directory/visualstudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/Platform/Windows.cmake
+C:/My Files/Programs directory/visualstudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/Platform/WindowsPaths.cmake
+C:/Users/User/Desktop/mapcreator_pattern/CMakeLists.txt
+C:/Users/User/Desktop/mapcreator_pattern/build/CMakeFiles/3.28.3-msvc11/CMakeCCompiler.cmake
+C:/Users/User/Desktop/mapcreator_pattern/build/CMakeFiles/3.28.3-msvc11/CMakeCXXCompiler.cmake
+C:/Users/User/Desktop/mapcreator_pattern/build/CMakeFiles/3.28.3-msvc11/CMakeRCCompiler.cmake
+C:/Users/User/Desktop/mapcreator_pattern/build/CMakeFiles/3.28.3-msvc11/CMakeSystem.cmake
+C:/Users/User/Desktop/mapcreator_pattern/external/SFML-2.6.1/lib/cmake/SFML/SFMLConfig.cmake
+C:/Users/User/Desktop/mapcreator_pattern/external/SFML-2.6.1/lib/cmake/SFML/SFMLConfigDependencies.cmake
+C:/Users/User/Desktop/mapcreator_pattern/external/SFML-2.6.1/lib/cmake/SFML/SFMLConfigVersion.cmake
+C:/Users/User/Desktop/mapcreator_pattern/external/SFML-2.6.1/lib/cmake/SFML/SFMLSharedTargets-debug.cmake
+C:/Users/User/Desktop/mapcreator_pattern/external/SFML-2.6.1/lib/cmake/SFML/SFMLSharedTargets-release.cmake
+C:/Users/User/Desktop/mapcreator_pattern/external/SFML-2.6.1/lib/cmake/SFML/SFMLSharedTargets.cmake
