@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PCConfigurator2")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1dba332f7e631218334ce75081f81102d4002b7d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+073b3a976766b94957821ef69b9e4c14a7119596")]
 [assembly: System.Reflection.AssemblyProductAttribute("PCConfigurator2")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PCConfigurator2")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

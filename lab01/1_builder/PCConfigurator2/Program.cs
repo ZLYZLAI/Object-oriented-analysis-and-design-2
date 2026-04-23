@@ -6,10 +6,10 @@ using System.Collections.Generic;
 
 namespace PCConfigurator2Builder
 {
-    // 1. ПРОДУКТ (КЛАСС ОБЪЕКТА)
+    // ПРОДУКТ 
 
-    /// Представляет конечный результат сборки - сложный объект "Компьютер".
-    /// Содержит только данные о компонентах и не знает, как они подбирались.
+    /// Представляет конечный результат сборки - сложный объект "Компьютер"
+    /// Содержит только данные о компонентах и не знает, как они подбирались
     public class Computer
     {
         public string CPU { get; set; }
@@ -20,7 +20,7 @@ namespace PCConfigurator2Builder
         public string Cooling { get; set; }
         public int TotalPrice { get; set; }
 
-        /// Возвращает текстовое описание всех характеристик сборки.
+        /// Возвращает текстовое описание всех характеристик сборки
         public string GetDescription()
         {
             return $"Процессор: {CPU}\n\n" +
@@ -36,10 +36,10 @@ namespace PCConfigurator2Builder
         private string gpuName(string name) => string.IsNullOrEmpty(name) ? "Интегрированное графическое ядро" : name;
     }
 
-    // 2. ИНТЕРФЕЙС СТРОИТЕЛЯ
+    // ИНТЕРФЕЙС СТРОИТЕЛЯ
 
-    /// Интерфейс строителя определяет шаги, необходимые для создания продукта.
-    /// Каждый конкретный строитель будет реализовывать эти шаги по-своему.
+    /// Интерфейс строителя определяет шаги, необходимые для создания продукта
+    /// Каждый конкретный строитель будет реализовывать эти шаги по-своему
     public interface IPCBuilder
     {
         void SetCPU(string budget);
@@ -52,9 +52,9 @@ namespace PCConfigurator2Builder
         Computer GetResult();
     }
 
-    // 3. КОНКРЕТНЫЕ СТРОИТЕЛИ
+    // КОНКРЕТНЫЕ СТРОИТЕЛИ
 
-    /// Строитель для игровых конфигураций.
+    /// Строитель для игровых конфигураций
     public class GamingBuilder : IPCBuilder
     {
         private Computer _pc = new Computer();
@@ -69,7 +69,7 @@ namespace PCConfigurator2Builder
         public Computer GetResult() => _pc;
     }
 
-    /// Строитель для учебных конфигураций.
+    /// Строитель для учебных конфигураций
     public class StudyBuilder : IPCBuilder
     {
         private Computer _pc = new Computer();
@@ -84,7 +84,7 @@ namespace PCConfigurator2Builder
         public Computer GetResult() => _pc;
     }
 
-    /// Строитель для офисных конфигураций.
+    /// Строитель для офисных конфигураций
     public class OfficeBuilder : IPCBuilder
     {
         private Computer _pc = new Computer();
@@ -99,10 +99,10 @@ namespace PCConfigurator2Builder
         public Computer GetResult() => _pc;
     }
 
-    // 4. ДИРЕКТОР 
+    // ДИРЕКТОР 
 
-    /// Директор отвечает за последовательность вызовов строителя.
-    /// Он знает "алгоритм сборки", но не знает, какие именно детали ставятся.
+    /// Директор отвечает за последовательность вызовов строителя
+    /// Он знает "алгоритм сборки", но не знает, какие именно детали ставятся
     public class Director
     {
         public void ConstructPC(IPCBuilder builder, string budget)
@@ -117,7 +117,7 @@ namespace PCConfigurator2Builder
         }
     }
 
-    // 5. ГРАФИЧЕСКИЙ ИНТЕРФЕЙС
+    // ГРАФИЧЕСКИЙ ИНТЕРФЕЙС
 
     public class Program : Form
     {

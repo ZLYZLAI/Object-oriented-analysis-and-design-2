@@ -216,7 +216,7 @@ namespace PCConfigurator
             btn.Font = new Font("Segoe UI", 11);
             btn.Cursor = Cursors.Hand;
             
-            // Подписка на событие клика через лямбда-выражение
+            
             btn.Click += (s, e) => onClick();
             contentPanel.Controls.Add(btn);
         }
