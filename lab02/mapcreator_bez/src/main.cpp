@@ -12,15 +12,15 @@ using namespace std;
 using json = nlohmann::json;
 
 // Теперь у нас нет разделения на "Тяжелый тип" и "Легкий контекст на карте".
-// У нас есть один "Толстый" объект, который хранит в себе АБСОЛЮТНО ВСЁ.
+// У нас есть один толстый объект, который хранит в себе абсолютно всё
 struct MapObject {
     int x, y;
     wstring name;
     string filename;
     
     // ПРОВАЛ В ПАМЯТИ #1:
-    // Текстура (самая тяжелая часть) теперь лежит внутри КАЖДОГО блока на карте.
-    // 1000 блоков травы = 1000 одинаковых текстур в оперативной памяти и видеопамяти.
+    // Текстура (самая тяжелая часть) теперь лежит внутри каждого блока на карте
+    // 1000 блоков травы = 1000 одинаковых текстур в оперативной памяти и видеопамяти
     sf::Texture texture;
 
     MapObject(int startX, int startY, const wstring& n, const string& file) {
@@ -31,7 +31,7 @@ struct MapObject {
         
         // ПРОВАЛ В ПРОИЗВОДИТЕЛЬНОСТИ #2:
         // Мы обращаемся к жесткому диску (очень медленная операция) 
-        // КАЖДЫЙ РАЗ, когда кисть ставит новый блок на карту.
+        // каждый раз, когда кисть ставит новый блок на карту
         if (!texture.loadFromFile("assets/" + filename)) {
             wcerr << L"Ошибка загрузки: " << name << endl;
         }
@@ -78,7 +78,7 @@ int main() {
     sf::Font font;
     font.loadFromFile("assets/font.ttf");
 
-    // Фабрики больше нет. Есть только массив тяжелых объектов.
+    // Фабрики больше нет - есть только массив тяжелых объектов
     vector<MapObject> mapObjects;
     State currentState = MainMenu;
     Tool currentTool = Tool::Brush;
@@ -140,7 +140,7 @@ int main() {
                     if (mPos.x < 950) { 
                         int gx = (int)mPos.x / GRID_SIZE, gy = (int)mPos.y / GRID_SIZE;
                         if (currentTool == Brush) {
-                            // Создаем новый уникальный блок. При каждом клике читается картинка с диска!
+                            // Создаем новый уникальный блок. При каждом клике читается картинка с диска
                             mapObjects.push_back(MapObject(gx, gy, selectedName, selectedFilename));
                         }
                         if (currentTool == Eraser) {

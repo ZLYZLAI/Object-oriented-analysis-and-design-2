@@ -44,7 +44,8 @@
 
 ### 4.1. Диаграмма классов
 
-![alt text](image-2.png)
+<img width="613" height="403" alt="image" src="https://github.com/user-attachments/assets/f80361d1-196e-4040-8d9d-c6ad2e308f99" />
+
 
 ### 4.2. Роли классов
 
@@ -131,14 +132,16 @@ struct MapObject {
 
 **Вариант 1 — без паттерна** (каждый объект хранит свою текстуру):
 
-![alt text](image.png)
+<img width="906" height="53" alt="image" src="https://github.com/user-attachments/assets/81102166-f28d-4c60-9e99-d0862537f4d0" />
+
 
 
 Наблюдается резкий рост потребления памяти при каждом клике кистью.
 
 **Вариант 2 — с паттерном Приспособленец:**
 
-![alt text](image-1.png)
+<img width="993" height="52" alt="image" src="https://github.com/user-attachments/assets/20309402-67e1-4098-9e66-89b9ead5fb60" />
+
 
 
 Память выделяется только при первом выборе нового типа. Дальнейшее рисование не увеличивает нагрузку на систему.
